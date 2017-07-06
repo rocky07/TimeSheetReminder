@@ -134,7 +134,7 @@ public class Main {
 	
 	public void startProcess(String body){
 		Main m1=new Main();
-		List<String> emailList =m1.dbConnect("jdbc:sqlserver://USPGH-ITPPM-P1", "ppm_reader","ppm_reader!@");
+		List<String> emailList =m1.dbConnect("jdbc:sqlserver://USPGH-ITPPM-P1", "","");
 		//emailList=new ArrayList<String>();
 		if(configProp.getProperty("devmode")!=null){
 			System.out.println("Dev mode on");
